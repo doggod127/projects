@@ -27,7 +27,7 @@ usermod -aG wheel,audio,video,optical,storage doggot
 
 # install sudo and user to sudo group
 pacman -S sudo
-echo >> /etc/sudoers.tmp %wheel ALL=(ALL) ALL
+echo >> /etc/sudoers.tmp "%wheel ALL=(ALL) ALL"
 
 # install grub
 pacman -Sy grub efibootmgr os-prober dosfstools mtools
