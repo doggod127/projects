@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set time zone 
-ln -sf /usr/share/zoneinfo/Europe/Moscow
+ln -sf /usr/share/zoneinfo/Europe/Moscow /etc/localtime
 
 # set system clock
 hwckock --systohc
